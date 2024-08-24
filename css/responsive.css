@@ -1,0 +1,255 @@
+/***********************************************************/
+/*RESPOSIVE SMARTPHONES*/
+@media (max-width:600px) {
+
+    /*Cabeçalho**/
+    header {
+        width: 100%;
+        height: 100%;
+    }
+
+    header div nav {
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /**********************/
+
+    .banner {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .banner img {
+        width: 100%;
+        height: 600px;
+    }
+
+    /**Quem Somos*/
+    .quemSomos {
+
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .quemSomos p {
+        text-align: start;
+        width: 80%;
+    }
+
+    .quemSomos img {
+        width: 90%;
+    }
+
+    /**Galeria*/
+    .galeria,
+    .blocoGaleria {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .galeria {
+        margin: 5%;
+        padding-left: 30%;
+    }
+
+    /***Serviços*/
+
+    .geleriaMob {
+        background: #4559a1;
+        backdrop-filter: blur(2px);
+
+    }
+
+    .geleriaMob div img {
+        width: 60%;
+        padding-left: 16%;
+    }
+
+    .geleriaMob {
+        border-radius: 5px 3px;
+        width: 80%;
+        margin: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .geleriaMob div button,
+    a {
+        text-decoration: none;
+        margin: 3%;
+    }
+
+
+    .geleriaMob p {
+        text-align: start;
+        font-size: 16px;
+        color: white;
+    }
+
+
+
+    .conteinerWeb {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+    /**Formulario*/
+    .conte form {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+
+
+    form textarea {
+        width: 19em;
+        height: 7em;
+    }
+
+    .selecioneProd h3 {
+        padding: 8px;
+    }
+
+
+    .conte {
+        width: 80%;
+    }
+
+    /********************************/
+    /*      AREA DE LOGIN          */
+    .contente{
+        display: contents;
+    }
+
+}
+
+
+/**********************************************************/
+/***TABLETE***/
+@media (max-width:1000px) {
+
+    /*Cabeçalho**/
+    header {
+        width: 100%;
+        height: 100%;
+    }
+
+    header div nav {
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /***********************/
+    /**BANNER**/
+    .banner {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .banner img {
+        width: 100%;
+        height: 600px;
+    }
+
+    /**Quem Somos*/
+    .quemSomos {
+
+        flex-direction: column;
+    }
+
+    .quemSomos img {
+        width: 100%;
+    }
+
+    /**Galeria*/
+
+    .galeria {
+        margin: 5%;
+    }
+
+    /***Serviços*/
+
+    .geleriaMob {
+        background: #4559a1;
+        backdrop-filter: blur(2px);
+
+    }
+
+    .geleriaMob div img {
+        width: 60%;
+        padding-left: 16%;
+    }
+
+    .geleriaMob {
+        width: 90%;
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .geleriaMob div button,
+    a {
+        text-decoration: none;
+        margin: 3%;
+    }
+
+
+    .geleriaMob p {
+        text-align: start;
+        font-size: 16px;
+        color: white;
+    }
+
+
+    .conteinerWeb {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+
+    }
+
+    .card1 img {
+        min-width: 100%;
+        width: auto;
+        height: 170%;
+    }
+
+    /**Formulario*/
+    .conte form {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+
+
+    form textarea {
+        width: 19em;
+        height: 7em;
+    }
+
+    .selecioneProd h3 {
+        padding: 8px;
+    }
+
+
+    .conte {
+        width: 80%;
+    }
+
+
+    /***********************************/
+    /*       AREA DE LOGIN            */
+    .contente{
+        display: contents;
+    }
+
+}
